@@ -1,0 +1,45 @@
+./ex3a
+  Counts equal left
+  ==============================================
+  Written by : Eliachar Feig. ID: 302278338
+  ==============================================
+ This program is building a binary tree. Then send the head (root) to another
+ function that counts how many section cross the value in the section is
+ equal to the its left child
+  Input: serie of integers
+  Output: the counter
+
+  g++ -Wall ex3a.cc -o ex3a
+  valgrind ./ex3a < test
+===================================================
+./ex3b
+  Biggest under tree of same quarter
+  ==============================================
+  This program is building a binary tree of points sorted by ID, then calling
+  a function that return a pointer to the head of the under tree that all the
+  points underness it are in the same quarter as the head point of the under
+  tree.
+  if doesnt find return 0 0 .
+  Input: ID (of a point), x coordinate, y coordinate.
+  Output: The head of the pointer that point to the biggest under tree that
+  fit the conditions
+
+  g++ -Wall ex3b.cc -o ex3b
+  valgrind ./ex3b < test
+===================================================
+./ex3c
+  Biggest under tree with sequence order
+  ==============================================
+  This program is building a binary tree of points sorted by order of the
+  input, reading integers from the user. The program is checking the
+  biggest under tree that it childs are put in order (+1 in the ID for the
+  child of each section cross.
+  a function that return a pointer to the head of the under tree that all the
+  sections underness fit the condition.
+  Input: integers until eof.
+  Output: The head of the pointer that point to the biggest under tree that
+  fit the conditions
+
+  g++ -Wall ex3c.cc -o ex3c
+  valgrind ./ex3c < test
+===================================================

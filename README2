@@ -1,0 +1,41 @@
+ This program is building a linked-list (of integers), then count how many
+digits there are which are bigger from their previous digit in the linked-list
+and at the same time are smaller from the the number in the next place
+in the list. The program return the counter.
+Input: integer numbers (until end of file (!cin.eof())
+Output: counter 
+
+g++ -Wall ex2a.cc -o ex2a
+===============================================
+./ex2b
+Update pointer to the next point in the same quarter (struct&linked-list)
+=============================================
+
+This program is using struct to build a linked-list of points, which every place in
+the linked-list contains 2 integer (x, y). Once the list is built, a function gets the 
+head of this list and pass on the list and every point update a pointer to point
+on the next point in the list which is in the same quarter.
+In the end, a function prints every point (in order) and the next point in the 
+same quarter (that the updated pointer _next_same_quarter), if there isn’t a point 
+in the same quarter it prints 0 0 (and the the update pointer point to NULL at this
+place.
+Input: integer numbers (until end of file (!cin.eof())
+Output: The list with the updated pointer..
+
+g++ -Wall ex2b.cc -o ex2b
+===============================================
+ ./ex1c
+====================================
+Series of dividing (linked-list + struct)
+====================================
+This program is building a link list 2D array (of pointer) , and getting
+from the user numbers in a loop from the user (until he insert 0), and each
+number the program calculates the smallest divider which start the line, then
+the 1st cell in the row is the smallest divider and the rest is the numbers
+that the prime in the first is their smallest divider.
+
+Input: numbers until 0.
+Output: the series by order.
+
+g++ -Wall ex2c.cc -o ex2c
+===================================================

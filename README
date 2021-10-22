@@ -1,0 +1,45 @@
+/* ./ex1a
+ * Calculates th sum (Dynamic arrays+pointers)
+ * =====================================================
+ *          Written by: Eliachar Feig. ID: 302278338
+ * =====================================================
+ * This program ask from the user how many rows he wants to insert in the
+ * 2D array, then in each row ask how many column in the row, then puts
+ * number in the row. In the end the program summing all the numbers in the
+ * array and return the sum.
+
+ * Input: num of row, num of col (in each)+ insert in cols.
+ * Output: sum.
+ * g++ -Wall ex1a.cc -o ex1a
+ * =========================================================
+/* ./ex1b
+ * Split sentences to words (dynamic + pointers + struct)
+ * =====================================================
+ * This program reads from the user how many sentences he wants to insert,
+ * then reads the sentences. The program use struct data, and insert the
+ * sentences into it, then counts the number of spaces there are in the
+ * sentences and make a new struct data with the number of spaces(num of
+ * rows in the new array of pointers). In the end insert each word in a
+ * new line in the new array.
+ * Input: number of sentences + sentences.
+ * Output: the new array of words
+ * g++ -Wall ex1b.cc -o ex1b
+ * =========================================================
+/* ./ex1c
+=========================================================
+ * Series of dividing (dynamic arrays + pointers)
+======================================================
+This program is starting with a 2D array with 1 row and 1 column, and getting
+from the user numbers in a loop from the user (until he insert 0), and each
+number the program calculates the smallest divider which start the line, then
+the 2nd cell in the row tells how many column there are (every time there is
+no place in the column the program duplicate the number of cells), the 3rd row
+tells how many cols are in used. Same thing with the rows, if there is no
+empty row and need to start a new line of divider serie, the program duplicate
+the number of rows. In the and I use a bubble sort function to put in order
+the series from the smallest divider serie to the biggest one, the prints.
+
+Input: numbers in a loop.
+Output: the series by order.
+ * g++ -Wall ex1c.cc -o ex1c
+ * =========================================================

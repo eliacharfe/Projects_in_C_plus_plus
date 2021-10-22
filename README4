@@ -1,0 +1,53 @@
+/* ./ex4a.cc
+ * Finding member in 2 sides of link list (generic)
+ * ==================================================
+ * Written by: Eliachar Feig. ID: 302278338
+ *==================================================
+ * This program is building a liked list which saving a pointer to point
+ * on the the start of the list and a pointer to point on the end of
+ * the list. It reading until eof. Then call a generic function each
+ * time with the pointer of the head or the pointer to the tail, and send
+ * to the litlle functions that finds the first cell from beginning or
+ * from the end that suit the conditions according to the exercise.
+ * Input : integers unil eof.
+ * Output : 6 integers that first suit the conditions
+ */
+ * g++ -Wall ex4a.cc -o ex4a
+==================================================================
+/* ./ex4b.cc
+ * Statistic data of students and courses
+ * ==================================================
+ * Written by: Eliachar Feig. ID: 302278338
+ *==================================================
+ * This program is reading into struct data of students (id, grades, height)
+ * and data to another struct saving data about courses (id, c.points, hours)
+ * Then send from the main a generic function 6 times with the correct datas
+ * and calculates avarage according to the instructions of the exercise.
+ * Input : stud id, grades, height(until id 0) then course id, cred.points,
+ * hours of the course.
+ * Output : avarage of all stud grades, avarage of the height of studs,
+ * avarage of credit points, avarage of hours per course, id of the student
+ * that received the highest avarage of grades, the id of the course
+ * that have the most numbers of hours.
+ */
+ * g++ -Wall ex4b.cc -o ex4b
+==================================================================
+/* ./ex4c.cc
+ * Statistic data of students and courses
+ * ==================================================
+ * Written by: Eliachar Feig. ID: 302278338
+ *==================================================
+ * This program is reading into struct data of students (id, grades, height)
+ * and data to another struct saving data about courses (id, c.points, hours)
+ * It saving in a sorted binary tree sorted by id.
+ * Then send from the main a generic function 6 times with the correct datas
+ * and calculates avarage according to the instructions of the exercise.
+ * Input : stud id, grades, height(until id 0) then course id, cred.points,
+ * hours of the course.
+ * Output : avarage of all stud grades, avarage of the height of studs,
+ * avarage of credit points, avarage of hours per course, id of the student
+ * that received the highest avarage of grades, the id of the course
+ * that have the most numbers of hours.
+ */
+ * g++ -Wall ex4c.cc -o ex4c
+==================================================================
