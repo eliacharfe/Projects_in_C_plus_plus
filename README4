@@ -47,7 +47,7 @@
  * Output : avarage of all stud grades, avarage of the height of studs,
  * avarage of credit points, avarage of hours per course, id of the student
  * that received the highest avarage of grades, the id of the course
- * that have the most numbers of hours.
+ * that have the most numbers of hours./
  */
  * g++ -Wall ex4c.cc -o ex4c
 ==================================================================
