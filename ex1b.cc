@@ -1,5 +1,5 @@
 /* ./ex1b
- * Split sentences to words (dynamic + pointers + struct)
+ * Split sentences to words (dynamic + pointers + struct)#
  * =====================================================
  *          Written by: Eliachar Feig. ID: 302278338
  * =====================================================
